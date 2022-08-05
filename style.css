@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+}
+
+header {
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    color: #777877;
+    background-color: #ffffff;
+    margin-bottom: 44px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #777877;
+}
+
+header div a img {
+    width: 30px;
+}
+
+header div button {
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+header div button:hover {
+    background-color: #d6d6d6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+#content {
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
+#title:hover {
+    color: rgba(0, 119, 255, 0.863);
+}
+
+#url {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #777877;
+}
+
+#url:hover {
+    color: rgb(146, 171, 201);;
+}
+
+
+main div p {
+    color: #5f5f5f;
+}
+
+form fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 800px;
+
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+}
+
+
+
+form fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form fieldset input{
+    width: 220px;
+    height: 35px;
+    border-radius: 35px;
+    border: solid 1px #b9b9b9;
+    background-color: #efefef;
+    padding: 0 15px;
+}
+
+form fieldset label p {
+    margin-left: 13px;
+}
+
+#url-link {
+    width: 400px;
+}
+
+#submit-form{
+    padding: 0 34px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(0, 119, 255);
+    color: #ffffff;
+}
+
+#submit-form:hover {
+    background-color: rgba(0, 119, 255, 0.863);
+    color: #ffffff;
+}
+
+#thanks {
+    font-size: 25px;
+    font-weight: 700;
+    color: #cccccc;
+}
